@@ -132,4 +132,22 @@ const ordered = 50;
 // Или
 // const res = ordered < total && ordered > 0 ? "Заказ оформлен, с вами свяжется менеджер" : "На складе недостаточно твоаров!";
 
-// console.log(res);
+// console.log(res);// Задание 3 (повтор)
+
+// const ADMIN_PASSWORD = 'jqueryismyjam';
+// let message;
+// let requestPassword = prompt("Введние пароль!");
+
+// if (requestPassword ===null) {
+//     message = 'Отменено пользователем!';
+// }
+// else if (requestPassword === ADMIN_PASSWORD) (
+//     message = 'Добро пожаловать!'
+// )
+
+// else {
+//     message = 'Доступ запрещен, неверный пароль!'
+// }
+
+// alert (message);
+
