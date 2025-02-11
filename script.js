@@ -107,59 +107,13 @@
 // // Показываем общую сумму чисел
 // alert(`Общая сумма чисел равна ${total}`);
 
-// Задание 1
 
-// const name = 'Генератор защитного поля';
+// // Задание 1 (повтор)
+
+// const name = "Генератор защитного поля";
 // let price = 1000;
-
-// console.log(`Выбран "${name}", цена за штуку: ${price} кредитов`);
-
+// console.log(`Выбран ${name}, Цена за штуку: ${price}`);
 // price = 2000;
+// console.log(`Выбран ${name}, Цена за штуку: ${price}`);
 
-// console.log(`Выбран "${name}", цена за штуку: ${price} кредитов`);
 
-// Задание 2
-
-// const total = 100;
-// const ordered = 130;
-
-// if (ordered > total) {
-//   console.log('На складе недостаточно товаров!');
-// } else {
-//   console.log('Заказ оформлен, с вами свяжется менеджер!');
-// }
-
-// Задание 2 (2)
-// const total = 50;
-
-// const ordered  = 54;
-
-// const res = ordered < total && ordered > 0 ? "Заказ оформлен, с вами свяжется менеджер" : "На складе недостаточно твоаров!";
-
-// console.log (res);
-
-// // Задание 3
-
-// const ADMIN_PASSWORD = 'jqueryismyjam';
-// let message;
-// let requestPassword = prompt('Введние пароль!');
-
-// if (requestPassword === null) {
-//   message = 'Отменено пользователем!';
-// } else if (requestPassword === 'ADMIN_PASSWORD') {
-//   message = 'Добро пожаловать!';
-// } else {
-//   message = 'Доступ запрещен, неверный пароль!';
-// }
-// alert(message);
-
-// Задание 6
-
-let input = prompt('введите число');
-let total = 0;
-let inputNumber = Number.input;
-if (input === null) {
-  alert(`Общая сумма чисел равна ${total}`);
-} else {
-  total += inputNumber;
-}
