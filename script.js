@@ -117,3 +117,19 @@
 // console.log(`Выбран ${name}, Цена за штуку: ${price}`);
 
 
+// Задание 2 (повтор)
+
+const total = 100;
+const ordered = 50;
+
+// if (ordered > total) {
+//     console.log("На складе недостаточно твоаров!")
+// }
+// else {
+//     console.log("Заказ оформлен, с вами свяжется менеджер")
+// }
+
+// Или
+// const res = ordered < total && ordered > 0 ? "Заказ оформлен, с вами свяжется менеджер" : "На складе недостаточно твоаров!";
+
+// console.log(res);
