@@ -132,7 +132,9 @@ const ordered = 50;
 // Или
 // const res = ordered < total && ordered > 0 ? "Заказ оформлен, с вами свяжется менеджер" : "На складе недостаточно твоаров!";
 
-// console.log(res);// Задание 3 (повтор)
+// console.log(res);
+
+// Задание 3 (повтор)
 
 // const ADMIN_PASSWORD = 'jqueryismyjam';
 // let message;
@@ -151,3 +153,26 @@ const ordered = 50;
 
 // alert (message);
 
+// Задание 4 (повтор)
+
+// let credits = 23580;
+// const pricePerDroid = 3000;
+// let totalPrice = 0;
+// let droidСount;
+// let inputrequest = prompt ( 'Введите кличество дроидов');
+
+// if (inputrequest === null) {
+//     console.log('Отменено пользователем!')
+// }
+// else {
+//     droidСount = Number (inputrequest);
+//        totalPrice = pricePerDroid * droidСount
+
+//        if (totalPrice > credits) {
+//         console.log ('Недостаточно средств на счету!')
+//        }
+//        else {
+//         credits -= totalPrice 
+//        console.log (`'Вы купили ${droidСount} дроидов, на счету осталось ${credits} кредитов.`)
+//        }
+//     }
