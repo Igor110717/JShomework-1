@@ -119,8 +119,8 @@
 
 // Задание 2 (повтор)
 
-const total = 100;
-const ordered = 50;
+// const total = 100;
+// const ordered = 50;
 
 // if (ordered > total) {
 //     console.log("На складе недостаточно твоаров!")
@@ -176,3 +176,50 @@ const ordered = 50;
 //        console.log (`'Вы купили ${droidСount} дроидов, на счету осталось ${credits} кредитов.`)
 //        }
 //     }
+
+// Задание 5 (повтор)
+
+// let numberLoans;
+// let specifyСountry = prompt('Укажите страну');
+
+
+
+// if (specifyСountry === null) {
+//     alert('Вы отменили заявку!');
+// }
+
+// else {
+//     specifyСountry = specifyСountry.toLowerCase();
+//     let countryFound = true;
+
+// switch (specifyСountry) {
+//     case 'китай': 
+//     numberLoans = 100;
+//     break;
+//     case 'чили': 
+//     numberLoans = 250;
+//     break;
+//     case 'австралия': 
+//     numberLoans = 170;
+//     break;
+//     case 'индия': 
+//     numberLoans = 80;
+//     break;
+//     case 'ямайка': 
+//     numberLoans = 120;
+//     break;
+//     default:
+//         countryFound = false; 
+//     alert ('В вашей стране доставка не доступна');
+// }
+
+// if (countryFound === true) {
+//     console.log(`Доставка в ${specifyСountry} будет стоить ${numberLoans} кредитов`);
+// }
+// }
+
+// задание 6 (повтор)
+
+let input;
+let total = 0;
+
